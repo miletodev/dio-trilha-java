@@ -22,7 +22,7 @@ git clone https://github.com/miletodev/dio-trilha-java
 Navegue até o diretório do projeto:
 
 ```console
-cd nome-do-repositorio
+cd dio-trilha-java
 ```
 
 Compile o código-fonte:
