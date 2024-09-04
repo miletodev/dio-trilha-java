@@ -23,6 +23,10 @@ Navegue até o diretório do projeto:
 
 ```console
 cd dio-trilha-java
+
+cd ContaBanco
+
+cd src
 ```
 
 Compile o código-fonte:
