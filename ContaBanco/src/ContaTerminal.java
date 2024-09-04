@@ -1,36 +1,27 @@
 import java.util.Scanner;
+
 public class ContaTerminal {
     
     public static void main(String[] args) throws Exception {
-       // o nome é Mario Andrade
-
+        
         Scanner texto = new Scanner(System.in);
-        String titular;
+        
         System.out.println("Como podemos te chamar?");
-        titular = texto.nextLine();
-
-        // a conta é 1021
+        String titular = texto.nextLine();
 
         System.out.println("Qual o número da sua conta?");
         int numeroConta = texto.nextInt();
 
-        // a gência é 067-8
-
-        System.out.println("Por último, qual o número da sua Agência?");
+        System.out.println("Por último, qual o número da sua Agência sem o traçado?");
         int numeroAgencia = texto.nextInt();
-       
-        String saldoInicial = ("237.48");
 
+        double saldoInicial = 237.48;
 
-        System.out.println("Olá, " + titular + ", obrigado por criar uma conta em nosso banco.");
-        System.out.println("Sua agência é: " + numeroAgencia);
-        System.out.println("Conta: " + numeroConta);
-        System.out.println("E seu saldo R$" + saldoInicial + "já está disponível para saque.");
-        
-        //Exibir as mensagens para o nosso usuário
+        System.out.printf("Olá, %s, obrigado por criar uma conta em nosso banco.%n", titular);
+        System.out.printf("Sua agência é: %04d%n", numeroAgencia); // Usando %04d para garantir que tenha 4 dígitos, se necessário.
+        System.out.printf("Conta: %04d%n", numeroConta); // Usando %04d para garantir que tenha 4 dígitos, se necessário.
+        System.out.printf("E seu saldo R$%.2f já está disponível para saque.%n", saldoInicial);
 
-        //Obter pela scanner os valores digitados
-
-        //Exibir a mensagem conta criada
+        texto.close();
     }
 }
