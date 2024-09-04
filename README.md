@@ -17,7 +17,7 @@ Clone o repositório para sua máquina local:
 
 Copiar código
 ```console
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/miletodev/dio-trilha-java
 ```
 
 Navegue até o diretório do projeto:
