@@ -6,7 +6,6 @@ Neste projeto, o usuário é solicitado a fornecer algumas informações pessoai
 
 ## Funcionalidades
 Entrada de Dados: Captura o nome do titular, número da conta e da agência bancária.
-Validação de Formato da Agência: Verifica se o número da agência está no formato "XXX-X".
 Exibição de Mensagens: Exibe uma mensagem personalizada para o usuário com os dados fornecidos e o saldo inicial.
 
 ## Tecnologias Utilizadas
